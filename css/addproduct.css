@@ -1,0 +1,59 @@
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Quicksand;
+  font-size: 18px;
+  line-height:30px;
+  color:black;
+  scroll-behavior: smooth;
+  margin: 0;
+  vertical-align: midd
+}
+
+.main {
+    padding: 0px 10px;
+    line-height: 90px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}

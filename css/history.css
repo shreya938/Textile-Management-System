@@ -1,0 +1,203 @@
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+/* Body */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+  font-size:18px;
+  font-family: Quicksand;
+  scroll-behavior: smooth;
+}
+
+.wrapper{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  transition: .3s;
+
+}
+
+nav.black{
+  background: rgba(0, 0, 0, 0.8);
+  height: 70px;
+  padding: 5px 10px;
+}
+
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 20px;
+  transition: .3s;
+}
+
+nav.black .logo
+{
+  color:white;
+}
+
+nav ul{
+list-style-type: none;
+float: right;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  line-height: 80px;
+  color:black;
+  padding: 12px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav.black ul li a{
+    color: #fff;
+}
+
+nav ul li a:focus{
+  outline: none;
+}
+
+
+nav ul li a:hover{
+  background-color: grey;
+  color: #fff;
+  border-radius: 8px;
+
+}
+
+/* middle */
+.middle{
+  position: absolute;
+  top: 200px;
+  height: 400px;
+  width: 100%;
+  z-index: -1;
+}
+
+
+#submit{
+  margin-top: 150px;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+
+#avatar{
+  margin-top: 70px;
+  margin-left: 80px;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  border-color: black;
+}
+
+
+
+
+/* Footer */
+.base{
+  position: absolute;
+  top: 900px;
+  padding: 0;
+  margin: 0 0 0 0 ;
+  width: 100%;
+  height: 400px;
+  background: url(bases.jpg);
+  background-size: cover;
+  left: 0;
+  right: 0;
+}
+.base:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.base .same{
+  float: left;
+  padding: 15px;
+  width: 30%;
+}
+.base h4{
+color: white;
+padding: 15px 15px 2px 15px;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+.base i{
+  border:solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+   margin-top: 10px;
+}
+
+.base ul{
+  list-style-type: none;
+}
+.base ul li{
+  list-style: none;
+}
+
+.base ul li a{
+  color:grey;
+  padding: 2px 3px;
+  text-decoration: none;
+  transition: .3s;
+}
+.base.black ul li a{
+    color: #fff;
+}
+
+.base ul li a:focus{
+  outline: none;
+}
+
+
+.base ul li a:hover{
+  border-bottom: 2px solid grey;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.base .text{
+  margin-left: 5px;
+}
+
+.same p{
+    text-align: justify;
+    color: grey;
+    margin-left: 25px;
+    padding: 2px 3px;
+    line-height: 20px;
+  }
